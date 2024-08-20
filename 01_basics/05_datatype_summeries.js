@@ -32,33 +32,83 @@ console.log(bigNumber);
 // so inki memory jaha pe wo values stores hai unka access nhi diya jata hai
 
 
+// JavaScript is statically typed language or Dynamically typed language? 
+
+// JS is Dynamically typed language 
+
+
 // Non - premitive Data type (Reference datatype) -> Arrays , Objects* , Functions 
 
 //Arrays
-const heros = ["ironman" , "spiderman" , "thor"];
+// const heros = ["ironman" , "spiderman" , "thor"];
 
-console.log(heros);
+// console.log(heros);
 
 // objects ke andar key value pair mai.. values ko store karte hai 
 
 
-let mydetails = {
-    name : "Kunal",
-    age : 23,
-}
+// let mydetails = {
+//     name : "Kunal",
+//     age : 23,
+// }
 
-console.log(mydetails);
+// console.log(mydetails);
 
 // functions 
 
-const myfunc = function (){
+// const myfunc = function (){
 
-    let num1 = 5 , num2 = 10;
-    return num1+num2;
+//     let num1 = 5 , num2 = 10;
+//     return num1+num2;
+
+// }
+
+// console.log(typeof myfunc);
+
+/*<--------------------------------How Memory works here------------------------------------->*/
+
+
+// bascially we have a two type of memory 
+/*
+where is stack and heap memory used 
+
+1] Stack Memory -> (Premitive data type uses the stack datatype)
+
+jab bhi stack memory use hoti hai jo bhi value hum ne decleare kiya hai uska ek copy milta hai
+
+
+2] Heap Memory -> (Jo bhi Non - Premetive Data type hai waha pe heap memory use hoti hai)
+
+// jab koi bhi data type heap ke andar store hota hai to waha se hum ko referece of that value milta hai Original Value ka(jo bhi value hum variable mai... karege wo orginal value mai.. change hoga)
+ 
+ */
+
+let mylaptop = "Kunal Pal"
+
+let anothername = mylaptop;
+
+anothername = "kunal7971"
+
+console.log(mylaptop);
+console.log(anothername);
+
+
+let userOne = {
+    email : "xyz@gmail.com",
+    id : "testdssd@ybl",  
 
 }
 
-console.log(typeof myfunc);
+let userTwo = userOne;
+
+console.log(userOne);
+
+
+
+userTwo.email = "test@gmail.com";
+
+console.log(userOne);
+console.log(userTwo);
 
 
 
@@ -66,7 +116,8 @@ console.log(typeof myfunc);
 
 
 
-// JavaScript is statically typed language or Dynamically typed language? 
 
-// JS is Dynamically typed language 
+
+
+
 
