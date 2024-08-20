@@ -4,7 +4,7 @@
 // there is a change in the javaScript so , make the old code same of now we use the "use strict" 
 // "use strict" to traeet all the js code as newr version
 
-"use strict";
+"use strict"; // apna code naye standred ke tarike se use kiya jayega i will the new syntax of modules and classes 
 
 // alert("hello")  this only run on the browsers run engine only not at node we can run this
 
@@ -24,14 +24,14 @@ var test = null; // null is the type of standalone type null reprset the value i
 
 var check = undefined // but here at undefine we are not declare the values at all
 
-// symbol is used to find the unqienss of the variables
+// symbol is used to find the to check the component unqienss of the variables
 
 
 // non premetive data type
 
 // object 
 
-console.log(typeof(undefined))
+console.log(typeof undefined)
 
 
 
