@@ -1,20 +1,20 @@
 /* ---------------> Number ------------------> */
 
 
-// const num = 400;
+const num = 400;
 
-// console.log(num);
+console.log(num);
 
-// const money = new Number(1000); // new object bana ke bata raha hu to ye wala properly object ki tarah milta hai
+const money = new Number(1000); // new object bana ke bata raha hu to ye wala properly object ki tarah milta hai
 
-// console.log(money);
+console.log(money);
 
-// console.log(money.toFixed(2));
+console.log(money.toFixed(2));
 
 
-// const otherNum = 1165.86666;
+const otherNum = 1165.86666;
 
-// console.log(otherNum.toPrecision(5));
+console.log(otherNum.toPrecision(5));
 
 
 // const eknum = 1000000
